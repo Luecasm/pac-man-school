@@ -1,0 +1,5 @@
+// In script.js (browser-side)
+function playAudio(url) {
+    const audio = new Audio(url);
+    audio.play();
+}
